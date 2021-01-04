@@ -1,12 +1,17 @@
 # Identicon
 
-**TODO: Add description**
-
 ## Description
 
 Elixir library to generate identicons, which are avatar images generated for a given string.
 This library makes a md5 hash of a string and uses it to generate an identicon, which will
 always match the string given to it as input.
+
+## Example
+
+```elixir
+iex > Identicon.main "bruno"
+:ok
+```
 
 ## Installation
 
